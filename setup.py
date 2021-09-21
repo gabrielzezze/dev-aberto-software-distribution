@@ -12,6 +12,6 @@ setup(
     url="https://github.com/gabrielzezze/dev-aberto-software-distribution",
     platforms=["Windows", "Linux", "Solaris", "Mac OS-X", "Unix"],
     python_requires=">=3.6",
-    install_requires=["requests"],
+    install_requires=["requests", "babel", "python-gettext"],
     scripts=["scripts/hello.py"],
 )
